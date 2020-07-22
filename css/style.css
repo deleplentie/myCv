@@ -44,9 +44,6 @@ ul li {
 .menu .mode-container {
     float: right;
 }
-.intro {
-    font-family: 'Pacifico', cursive;
-}
 select {
     background: bisque;
     color: brown;

@@ -49,7 +49,8 @@ function detectChange() {
         bodyDiv.toLightMode(body, "white", "black");
         leftDiv.toLightMode(left, "rgb(0, 0, 95)", "whitesmoke");
         rightDiv.toLightMode(right, "white", "black");
-        footerDiv.toLightMode(footer, "rgb(226, 226, 226)", "black");
+        footerDiv.toLightMode(footer, "rgba(226, 226, 226, 0.342)", "black");
+        footer.style.backdropFilter = "saturate(180%) blur(5px)";
         for (let i = 0; i < name.length; i++) {
             nameDiv.toLightMode(name[i], "none", "black");
             subNameContent.toLightMode(subName[i], "none", "white");
